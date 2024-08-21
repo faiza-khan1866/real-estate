@@ -1,0 +1,106 @@
+.header-banner {
+    // background: no-repeat center center fixed; 
+    // -webkit-background-size: cover;
+    // -moz-background-size: cover;
+    // -o-background-size: cover;
+    // background-size: cover;
+    .container {
+        width: 100%;
+        // display: contents;
+        max-width: 100%;
+        background: url("../img/backgroundimg/bgImg.jpg") no-repeat center center; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        padding-right: 0;
+        padding-left: 0;
+
+        // opacity: 0.9
+        .hb-container {  
+            background-color: var(--main-color-one);
+            opacity: 0.9;
+            padding: 50px 100px;
+            @media #{$md} {
+                padding: 50px 35px;
+            }
+            @media #{$sm} {
+                padding: 2rem 1rem;
+            }
+            .hb-content {
+                display: flex;
+                justify-content: space-between;
+                @media #{$sm} {
+                    display: block;
+                }
+                .hb-detail {
+                    display: flex;
+                    justify-content: center;
+                    text-align: inherit;
+                    align-items: center;
+                    @media #{$sm} {
+                        justify-content: start;
+                        margin-bottom: 3rem;
+                    }
+                    .hb-logo{
+                        width: 80px;
+                        height: 80px;
+                    }
+                    .hb-descp{
+                        margin-left: 20px;
+                        h3, h6 {
+                            color: $primary-color;
+                            margin: 0;
+                            line-height: 30px;
+                            font-size: $subheading-size;
+                        }
+                        h3{
+                            font-weight: bold;
+                            font-size: 20px;
+                            @media #{$md} {
+                                font-size: 18px;
+                            }
+                        }
+                        h6 {
+                            font-weight: normal;
+                            @media #{$md} {
+                                font-size: 13px;
+                            }
+                        }
+                        p {
+                            margin-top: 20px;
+                            line-height: 20px;
+                        }
+                    }
+                }
+            }
+            .hb-title {
+                // padding-left: 100px;
+                padding-bottom: 50px;
+                @media #{$sm} {
+                    padding-bottom: 26px; 
+                }
+                h3, h5 {
+                    margin: 0;
+                    line-height: 37px;
+                }
+                h3 {
+                    font-size: 24px;
+                    color: $text-color;
+                    font-weight: bold;
+                    @media #{$sm} {
+                        font-size: 18px;
+                    }
+                }
+                h5 {
+                    font-size: 18px;
+                    color: $headingtwo-color;
+                    font-weight: normal;
+                    @media #{$sm} {
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+}

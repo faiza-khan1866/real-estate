@@ -1,0 +1,23 @@
+@import "../../assets/scss/variables";
+.map-modal {
+  border: 1px solid #215c4f;
+  box-shadow: 1px 4px 11px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  z-index: 99999999;
+  .modalIcon {
+    background: #215c4f;
+    color: $white;
+    padding: 1rem;
+    border-radius: 100%;
+    margin-bottom: 1rem;
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .MuiSvgIcon-root {
+      font-size: 18px;
+    }
+  }
+}

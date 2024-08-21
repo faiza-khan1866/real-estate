@@ -1,0 +1,331 @@
+.homepage-wrapper {
+  background: $white;
+  height: 90vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  @media #{$md,$lg} {
+    height: 60vh;
+  }
+  @media #{$sm} {
+    display: block;
+    height: auto;
+  }
+  .homepage-carousel {
+    height: 100%;
+    // width: 38%;
+    @media #{$sm} {
+      width: 100%;
+    }
+    .carousel.carousel-slider {
+      width: 100%;
+      height: 100%;
+      .control-dots {
+        li {
+          border: 2px solid $text-color;
+          &:hover {
+            background: $text-color;
+          }
+        }
+      }
+      .dot.selected {
+        background: $text-color;
+      }
+      .slider-wrapper {
+        height: inherit;
+        .slider {
+          height: inherit;
+        }
+        .slider .slide {
+          text-align: start;
+          &.selected {
+            height: 100%;
+            > div {
+              height: inherit;
+            }
+          }
+          .homepage-intro {
+            background: $primary-color;
+            padding: 9px 50px 42px 50px;
+            display: grid;
+            grid-template-rows: 1fr 2fr 1fr;
+            height: 100%;
+            align-items: center;
+            justify-content: center;
+            // display: flex;
+            // flex-direction: column;
+            // position: relative;
+            @media #{$xl} {
+              padding: 9px 50px 100px 50px;
+            }
+            .site-logo {
+              @media #{$sm} {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+              }
+
+              img {
+                max-width: 260px;
+                width: 170px;
+                @media #{$tiny} {
+                  max-width: 150px;
+                  width: 120px;
+                }
+              }
+              h6 {
+                color: $text-color;
+                font-weight: 700;
+                margin: 0;
+                font-size: 1.45vw;
+                line-height: 25.2px;
+                font-family: $tajwl;
+                @media #{$sm} {
+                  text-align: center;
+                  font-size: 3.45vw !important;
+                }
+              }
+              p {
+                font-weight: 400;
+                margin: 0;
+                font-size: 0.833vw;
+                font-family: $tajwl;
+                color: $secondary-color;
+                @media #{$sm} {
+                  text-align: center;
+                  font-size: 2.833vw;
+                }
+              }
+            }
+            .site-img {
+              width: 100%;
+              display: flex;
+              align-items: center;
+              margin-top: 8vh;
+              margin-bottom: 2vh;
+              @media #{$sm} {
+                margin-top: 1vh;
+                margin-bottom: 1vh;
+              }
+              img {
+                max-width: 430px;
+                min-width: 250px;
+                width: 100%;
+                @media #{$tiny} {
+                  max-width: 299px;
+                  width: 250px;
+                }
+              }
+            }
+            .homepage-txt {
+              // bottom: 13%;
+              // position: absolute;
+              h4 {
+                color: $headingtwo-color;
+                font-weight: 700;
+                margin: 0;
+                font-size: 2vw;
+                font-family: $tajwl;
+                @media #{$sm} {
+                  text-align: center;
+                  font-size: 3vw;
+                }
+              }
+              h6 {
+                color: $secondary-color;
+                font-weight: 300;
+                margin: 10px 0;
+                font-family: $tajwl;
+                font-size: 1.55vw;
+                @media #{$sm} {
+                  text-align: center;
+                  font-size: 3vw;
+                }
+              }
+              p {
+                font-weight: 300;
+                margin: 0;
+                font-family: $tajwl;
+                color: $para-color;
+                font-size: 1.18vw;
+                @media #{$sm} {
+                  text-align: center;
+                  font-size: 2.25vw;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .home-menu-wrapper {
+    width: 100%;
+
+    .paper-wrapper {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      height: 100%;
+      process.env.PUBLIC_URL {
+        font-size: 20px;
+        font-weight: normal;
+      }
+      .MuiGrid-item {
+        object-fit: contain;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        .MuiPaper-rounded {
+          border-radius: 0px;
+          height: 100%;
+          opacity: 0.9;
+          color: $primary-color;
+          font-family: $tajwl;
+          text-align: center;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-weight: 200;
+          transition: background-color 2s ease-out 100ms;
+
+          &:hover {
+            background-color: $white !important;
+            opacity: 0.9;
+          }
+          &#paper1:hover,
+          &#paper3:hover,
+          &#paper7:hover,
+          &#paper9:hover {
+            color: $secondary-color;
+          }
+          &#paper2:hover,
+          &#paper8:hover {
+            color: $text-color;
+          }
+          &#paper4:hover {
+            color: $menu-color;
+          }
+          &#paper5:hover {
+            color: $headingtwo-color;
+          }
+          &#paper6:hover {
+            color: $menuthree-color;
+          }
+        }
+      }
+    }
+  }
+}
+.home-menu-wrapper {
+  width: 100%;
+  height: 100%;
+
+  .paper-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 100%;
+    process.env.PUBLIC_URL {
+      font-size: 25px;
+      font-weight: normal;
+    }
+    .MuiGrid-item {
+      object-fit: contain;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      .MuiPaper-rounded {
+        border-radius: 0px;
+        height: 100%;
+        opacity: 0.9;
+        color: $primary-color;
+        font-family: $tajwl;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 200;
+        transition: background-color 2s ease-out 100ms;
+
+        &:hover {
+          background-color: $white !important;
+          opacity: 0.9;
+        }
+        &#paper1:hover,
+        &#paper3:hover,
+        &#paper7:hover,
+        &#paper9:hover {
+          color: $secondary-color;
+        }
+        &#paper2:hover,
+        &#paper8:hover {
+          color: $text-color;
+        }
+        &#paper4:hover {
+          color: $menu-color;
+        }
+        &#paper5:hover {
+          color: $headingtwo-color;
+        }
+        &#paper6:hover {
+          color: $menuthree-color;
+        }
+      }
+    }
+  }
+}
+
+// @media only screen and (max-width: 600px) {
+//     .guest-reviews-wrapper {
+//         padding: 1rem 0.5rem !important;
+//         h1,
+//         h2 {
+//             font-size: 1.75rem;
+//         }
+//         .slide {
+//             background-color: transparent !important;
+//         }
+//         .review-wrapper {
+//             width: 75%;
+//             img {
+//                 width: 85px !important;
+//                 height: 85px;
+//             }
+//             .gt-name {
+//                 margin-top: 0.5rem;
+//             }
+//             .gt-title{
+//                 font-size: 20px;
+//             }
+//             .gt-title,
+//             .gt-review {
+//                 color: $white;
+//                 margin-top: 0.5rem;
+//             }
+//             .gt-review {
+//                 font-weight: 300;
+//                 text-align: justify !important;
+//             }
+//             .gt-date {
+//                 font-weight: 300;
+//                 color: rgba(255, 255, 255, 0.5);
+//             }
+//             .gt-rating {
+//                 display: block;
+//                 margin: 0 auto;
+//             }
+//             .btn-read-more {
+//                 cursor: pointer;
+//                 color: $white;
+//                 border: none;
+//                 background: transparent;
+//                 border-bottom: 1px solid $white;
+//             }
+//         }
+//     }
+// }

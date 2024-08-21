@@ -1,0 +1,75 @@
+@import "../../../assets/scss/variables";
+.property-sort {
+  .buildingDiv {
+    position: relative;
+    text-align: left;
+    color: white;
+    margin-bottom: 1.5rem;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    @media #{$lg} {
+      height: 300px;
+    }
+
+    @media #{$md} {
+      height: 250px;
+    }
+
+    @media #{$xsm} {
+      height: 250px;
+    }
+    @media #{$lsm} {
+      height: 250px;
+    }
+
+    .icon_div {
+      position: absolute;
+      top: 5%;
+      right: 2%;
+      span {
+        background: #ddd;
+        color: black;
+        font-size: 13px;
+        border-radius: 100px;
+        padding: 0.5rem;
+        font-weight: 500;
+      }
+    }
+
+    // &:hover{
+    //     // background-size: 120%;
+    //     transition: all .5s;
+    // }
+
+    // .buildingImg {
+    //     // background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+    //     border-radius: 10px;
+    //     height: 400px;
+    // }
+  }
+
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    .title {
+      font-size: 25px;
+      font-weight: 700;
+      color: $white;
+      @media #{$sm} {
+        font-size: 17px;
+      }
+    }
+    .subtitle {
+      font-size: 18px;
+      font-weight: 400;
+      color: $white;
+      @media #{$sm} {
+        font-size: 14px;
+      }
+    }
+  }
+}

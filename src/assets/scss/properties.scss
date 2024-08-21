@@ -1,0 +1,146 @@
+#commercial{
+    .property-page{
+        .main-search-area{
+            .tab-panel-properties{
+               .nav-item {
+                   a.active {
+                       background: $text-color !important;
+                   }
+               } 
+               .tab-content{
+                   .title{
+                       color: $text-color;
+                   }
+                   .btn.purpose{
+                    // color: $text-color;
+                    @media #{$sm} {
+                        margin-left: 0;
+                    }
+                        &.active, &:focus, &:hover{
+                            color: $primary-color;
+                            background-color: $text-color;
+                        }
+                    }
+                }
+                .range-slider{
+                    .MuiSlider-root {
+                        color: #C4C4C4;
+                        .MuiSlider-thumb{                           
+                            color: $text-color;}
+                        .MuiSlider-track{
+                            color: $text-color;
+                            background: $text-color;}
+                        .MuiSlider-mark.MuiSlider-markActive{
+                            opacity: 0;
+                            color: $text-color;
+                        }
+                    }    
+                }
+            }
+        } 
+    }
+    .PropertyIntro-area {
+        .section-title {
+            .title {
+                color: #BA945C;
+                font-size: 29px !important;
+            }
+            .sub-title {
+                color: #424242 !important;
+            }
+        }
+    }
+    // .property-sort.property-area .custom-gutter .property-filter-menu-wrap .property-filter-menu button
+    .property-sort.property-area{
+        .custom-gutter {
+            .property-filter-menu-wrap {
+                .property-filter-menu{
+                    button{
+                        border: 1px solid #BA945C;
+                        background-color: $primary-color;
+                        color: #BA945C;
+                        &.active, &:focus, &:hover{
+                            color: $primary-color;
+                            background-color: #BA945C;
+                        }
+                    }
+                } 
+            }
+        }
+    }  
+}
+
+#industrial{
+    .property-page{
+        .main-search-area{
+            .tab-panel-properties{
+               .nav-item {
+                   a.active {
+                       background: $menuthree-color !important;
+                   }
+               } 
+               .tab-content{
+                   .title{
+                       color: $menuthree-color;
+                   }
+                   .btn.purpose{
+                    @media #{$sm} {
+                        margin-left: 0;
+                    }
+                    // color: $menuthree-color;
+                        &.active, &:focus, &:hover{
+                            color: $primary-color;
+                            background-color: $menuthree-color;
+                        }
+                    }
+                }
+                .range-slider{
+                    .MuiSlider-root {
+                        color: #C4C4C4;
+                        .MuiSlider-thumb{                           
+                            color: $menuthree-color;}
+                        .MuiSlider-track{
+                            color: $menuthree-color;
+                            background: $menuthree-color;}
+                        .MuiSlider-mark.MuiSlider-markActive{
+                            opacity: 0;
+                            color: $menuthree-color;
+                        }
+                    }    
+                }
+            }
+        } 
+    }
+    .PropertyIntro-area {
+        .section-title {
+            .title {
+                font-size: 29px !important;
+                color: #FF6E6E;
+            }
+            .sub-title {
+                color: #424242 !important;
+            }
+        }
+    }
+    // .property-sort.property-area .custom-gutter .property-filter-menu-wrap .property-filter-menu button
+    .property-sort.property-area{
+        .custom-gutter {
+            .property-filter-menu-wrap {
+                .property-filter-menu{
+                    button{
+                        border: 1px solid #FF6E6E;
+                        background-color: $primary-color;
+                        color: #FF6E6E;
+                        &.active, &:focus, &:hover{
+                            color: $primary-color;
+                            background-color: #FF6E6E;
+                        }
+                    }
+                } 
+            }
+        }
+    }  
+}
+
+
+

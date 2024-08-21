@@ -1,0 +1,52 @@
+@import "../../../assets/scss/variables";
+.bottom-navigator-wrapper {
+  display: none;
+}
+@media only screen and (max-width: 600px) {
+  .bottom-navigator-wrapper {
+    display: block;
+    margin-top: 56px;
+    z-index: 100;
+    .MuiBottomNavigation-root {
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+      position: fixed;
+      bottom: 0;
+      background: white;
+      z-index: 1500;
+      // box-shadow: 0px -4px 6px -2px #d3d3d3b5;
+      //a {
+      //  // display: flex;
+      //  // flex-direction: column;
+      //  text-align: center;
+      //  color: $heading-color;
+      //  font-weight: 600;
+      //  .tab-icon {
+      //    font-size: 24px;
+      //    font-weight: 600;
+      //  }
+      //  p {
+      //    margin-bottom: 0;
+      //  }
+      //}
+      .BNButton {
+        background: #ba945c;
+        border: 1px solid white;
+        color: white;
+        font-size: 12px;
+        padding: 0.5rem 1.5rem;
+        border-radius: 0.3rem;
+        &:hover {
+          border: 1px solid #ba945c;
+          background: white;
+          color: #ba945c;
+        }
+        .iconSize {
+          font-size: 16px;
+          margin-right: 0.2rem;
+        }
+      }
+    }
+  }
+}

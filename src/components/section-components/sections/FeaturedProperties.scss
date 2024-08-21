@@ -1,0 +1,50 @@
+@import "../../../assets/scss/variables";
+.featured-area {
+  .cardstyle {
+    background: #f4f4f4;
+    border-radius: 10px;
+    border: 0;
+    margin-bottom: 2rem;
+    .imgstyle {
+      position: relative;
+      height: 320px;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+      border-radius: 10px 10px 0px 0px;
+      object-fit: cover;
+      @media #{$lg} {
+        height: 250px;
+      }
+      @media #{$lsm} {
+        height: 250px;
+      }
+      @media #{$xsm} {
+        height: auto;
+      }
+    }
+    .icon_div {
+      position: absolute;
+      top: 5%;
+      right: 2%;
+      span {
+        background: #ddd;
+        color: black;
+        font-size: 13px;
+        border-radius: 100px;
+        padding: 0.5rem;
+        font-weight: 500;
+      }
+    }
+    .title {
+      font-size: 21px;
+      font-weight: 700;
+      color: #ba945c;
+      @media #{$sm} {
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+.textForTeam {
+  min-height: 250px !important;
+}

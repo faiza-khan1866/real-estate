@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url> <loc>https://makeen.ae/</loc> </url>
+<url> <loc>https://makeen.ae/</loc> </url>
+<url> <loc>https://makeen.ae/about-us</loc> </url>
+<url> <loc>https://makeen.ae/properties</loc> </url>
+<url> <loc>https://makeen.ae/residential</loc> </url>
+<url> <loc>https://makeen.ae/commercial</loc> </url>
+<url> <loc>https://makeen.ae/industrial</loc> </url>
+<url> <loc>https://makeen.ae/service</loc> </url>
+<url> <loc>https://makeen.ae/news</loc> </url>
+<url> <loc>https://makeen.ae/contact-us</loc> </url>
+<url> <loc>https://makeen.ae/registration</loc> </url>
+<url> <loc>https://makeen.ae/careers</loc> </url>
+<url> <loc>https://makeen.ae/faqs</loc> </url>
+<url> <loc>https://makeen.ae/testimonials</loc> </url>
+<url> <loc>https://makeen.ae/terms-services</loc> </url>
+<url> <loc>https://makeen.ae/privacy-policy</loc> </url>
+<url> <loc>https://makeen.ae/privacy-policy</loc> </url>
+<url> <loc>https://makeen.ae/properties/residential/:type/:slug</loc> </url>
+<url> <loc>https://makeen.ae/properties/commercial/:type/:slug</loc> </url>
+<url> <loc>https://makeen.ae/properties/industrial/:type/:slug</loc> </url>
+<url> <loc>https://makeen.ae/sitemap</loc> </url>
+</urlset>

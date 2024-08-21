@@ -1,0 +1,116 @@
+@import "../../../assets/scss/variables";
+.testimonial-carousel {
+  padding-top: 3rem;
+  @media #{$sm} {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+  }
+  .BlogTitle {
+    font-size: 29px;
+    color: var(--main-color-two);
+    font-weight: 600;
+    text-transform: uppercase;
+    @media #{$sm} {
+      font-size: 25px;
+    }
+  }
+  .subtitle {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 2rem;
+    @media #{$sm} {
+      font-size: 16px;
+    }
+  }
+  .carouselmarginBlog {
+    margin-left: 2rem;
+    @media #{$sm} {
+      margin-left: 0.5rem;
+    }
+    .cardstyle {
+      border: none;
+      background: #ffffff;
+      box-shadow: 1px 4px 11px rgba(0, 0, 0, 0.08);
+      border-radius: 6px;
+      // height: 413px;
+      .card-body {
+        height: 430px;
+        padding: 1rem 3rem;
+        @media #{$sm, $md} {
+          height: 430px;
+        }
+        .title {
+          font-size: 21px;
+          font-weight: 700;
+          text-align: center;
+          margin-top: 2rem;
+          margin-bottom: 0;
+        }
+        .description {
+          font-size: 15px;
+          text-align: justify;
+          font-weight: 400;
+        }
+        .iconimg {
+          // width: 100px;
+          border-radius: 100%;
+          border: 4px solid #d3d3d34f;
+        }
+      }
+    }
+  }
+  .react-multi-carousel-list {
+    padding-bottom: 4rem;
+  }
+  .react-multi-carousel-dot--active button {
+    background: #215c4f;
+    width: calc(20px + 40px);
+    border-radius: 20px;
+    border-color: transparent !important;
+  }
+  .react-multi-carousel-dot button {
+    border-color: lightgrey;
+  }
+  .react-multi-carousel-item {
+    overflow: auto;
+  }
+  .react-multiple-carousel__arrow--left {
+    left: calc(40% + 1px);
+    bottom: -6px;
+    @media #{$sm} {
+      left: calc(0% + 1px);
+    }
+    @media #{$md} {
+      left: calc(30% + 1px);
+    }
+  }
+  .react-multiple-carousel__arrow--right {
+    right: calc(40% + 1px);
+    /* top: 100%; */
+    bottom: -6px;
+    @media #{$sm} {
+      right: calc(0% + 1px);
+    }
+    @media #{$md} {
+      right: calc(30% + 1px);
+    }
+  }
+  .react-multiple-carousel__arrow {
+    background: transparent;
+    min-width: 0px;
+    min-height: 0px;
+    &:hover {
+      background: transparent;
+    }
+  }
+  .react-multiple-carousel__arrow::before {
+    color: #ba945c;
+  }
+
+  // .react-multi-carousel-item{
+  //     opacity: 0.5;
+  // }
+  // .react-multi-carousel-item .selected{
+  //     opacity: 1;
+  // }
+}

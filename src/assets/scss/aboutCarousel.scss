@@ -1,0 +1,125 @@
+
+    .AboutCarousel{
+      padding-bottom: 1rem;
+      .react-multi-carousel-list{
+        padding-bottom: 4rem;
+      }
+      .react-multi-carousel-dot--active button {
+        background: #215c4f;
+        width: calc(20px + 40px);
+        border-radius: 20px;
+        border-color: transparent !important;
+    }
+    .react-multi-carousel-dot button{
+      border-color: lightgrey;
+    }
+    .react-multiple-carousel__arrow--left {
+      left: calc(35% + 1px);
+      bottom: -6px;
+      @media #{$sm} {
+        left: calc(0% + 1px);
+      }
+      @media #{$md} {
+        left: calc(30% + 1px);
+      }
+  }
+  .react-multiple-carousel__arrow--right {
+    right: calc(35% + 1px);
+    /* top: 100%; */
+    bottom: -6px;
+    @media #{$sm} {
+      right: calc(0% + 1px);
+    }
+    @media #{$md} {
+      right: calc(30% + 1px);
+    }
+}
+.react-multiple-carousel__arrow {
+  background: transparent;
+      min-width: 0px; 
+      min-height: 0px;
+  &:hover{
+    background: transparent;
+  }
+}
+.react-multiple-carousel__arrow::before {
+  color: #BA945C;
+}
+     .BCarouseldiv{
+            padding: 1rem 1rem 1rem 3rem;
+            border: 1px solid #C4C4C4;
+            border-radius: 30px;
+            margin-right: 1rem;
+            @media #{$sm, $xsm} {
+              margin-right: 0;
+            }
+            p{
+              color: black;
+            }
+            .psize{
+              font-size: 20px;
+              font-weight: bold;
+              color: #ba945c;
+              text-align: left;
+              @media #{$md} {
+                font-size: 20px;
+              }
+              @media #{$sm, $xsm} {
+                font-size: 18px;
+              }
+            }
+            .p2size{
+                text-align: left;
+                color: black;
+                font-weight: 600;
+              @media #{$md} {
+                font-size: 15px;
+              }
+              @media #{$sm, $xsm} {
+                font-size: 13px;
+              }
+            }
+            .B2Bbutton{
+                border-top: none;
+                border-left: none;
+                border-right: none;
+                border-bottom: 1px solid #ba945c;
+                margin-bottom: 1rem;
+                color: #ba945c;
+                background: transparent;
+                font-size: 12px;
+              @media #{$sm,$xsm} {
+                margin-bottom: 1rem !important;
+              }
+            }
+            .rowmargin{
+              margin-right: 1rem;
+              @media #{$sm, $md} {
+                margin-right: 0;
+              }
+            }
+            .Iconimg{
+              // width: 25%;
+              // margin-right: 1rem;
+              width: 45px;
+              height: 45px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              border-radius: 50%;
+              border: 1px solid #BA945C;
+              // margin-right: 1rem;
+              .icon {
+                color: #BA945C;
+                font-size: 20px;
+              }
+            }
+            .B2Bimg{
+              width: 100%;
+              // height: 300px;
+            }
+            @media #{$sm,$xsm} {
+              padding: 1rem;
+            }
+          }
+  }

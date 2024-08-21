@@ -1,0 +1,162 @@
+@import "../../../../assets/scss/variables";
+.Slider {
+  padding-top: 8rem;
+  @media #{$sm} {
+    padding-top: 9rem;
+  }
+  .card {
+    border: 1px solid #215c4f !important;
+    border-radius: 10px !important;
+  }
+  .Title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #ba945c;
+    margin-bottom: 2rem;
+  }
+  .FormTitle {
+    font-size: 18px;
+    font-weight: 700;
+    color: #ba945c;
+    margin-top: 0.5rem;
+  }
+  .form-group {
+    margin-bottom: 0rem;
+  }
+
+  .subTitle {
+    font-size: 17px;
+    font-weight: 400;
+  }
+  .contactTitle {
+    font-size: 20px;
+    font-weight: 700;
+    color: #424242;
+    margin-top: 1rem;
+  }
+  .cardImg {
+    border-radius: 6px;
+    width: 100px;
+  }
+  .form-control {
+    background: #f4f4f4 !important;
+    border: 1px solid #c4c4c4 !important;
+    border-radius: 9px !important;
+    color: #77787d;
+    &::placeholder {
+      color: #c4c4c4;
+    }
+  }
+  .contactBTNDiv {
+    @media #{$sm} {
+      flex-direction: column;
+      //   margin-bottom: 2rem;
+    }
+  }
+  .ContactButton {
+    font-size: 18px;
+    font-weight: 400;
+    background: #215c4f;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    text-align: center;
+    width: 45%;
+    cursor: pointer;
+    padding: 0.5rem 0;
+    @media #{$sm} {
+      width: 100%;
+      margin-bottom: 1rem;
+      padding: 0.5rem 0;
+    }
+  }
+  .submitbtn {
+    font-size: 18px;
+    font-weight: 400;
+    background: #215c4f;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    text-align: center;
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+  }
+  .brochure_btn {
+    font-size: 18px;
+    font-weight: 400;
+    background: #215c4f;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    text-align: center;
+    padding: 0.5rem 2rem;
+    margin-top: 2rem;
+    display: block;
+    width: fit-content;
+    cursor: pointer;
+    @media #{$sm} {
+      width: 100%;
+      margin-bottom: 2rem;
+      margin-top: 0;
+    }
+    @media #{$md} {
+      margin-bottom: 2rem;
+    }
+  }
+  .arrowDiv {
+    position: absolute;
+    top: 60%;
+    right: 35px;
+    @media #{$md} {
+      top: 40%;
+    }
+    @media #{$lg} {
+      top: 53%;
+    }
+    @media #{$sm} {
+      top: 45%;
+    }
+    .CarouselArrow {
+      width: 45px;
+      height: 45px;
+      border: 1px solid white;
+      border-radius: 100%;
+      background: transparent;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      @media #{$sm} {
+        width: 30px;
+        height: 30px;
+      }
+    }
+    .carouselArrowsize {
+      font-size: 35px;
+      color: white;
+      @media #{$sm} {
+        font-size: 25px;
+      }
+    }
+  }
+  .carousel * {
+    border-radius: 10px;
+  }
+  .carousel .thumb.selected,
+  .carousel .thumb:hover {
+    border: 1px solid #215c4f !important;
+  }
+  .carousel .thumbs-wrapper {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .carousel .thumbs {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .thumb {
+    width: 100px !important;
+  }
+}

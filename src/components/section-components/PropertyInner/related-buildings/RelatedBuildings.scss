@@ -1,0 +1,79 @@
+@import "../../../../assets/scss/variables";
+.related-buildings {
+  padding-top: 3rem;
+  @media #{$sm,$md} {
+    padding-top: 2rem;
+  }
+  .InfoTitle {
+    font-size: 24px;
+    font-weight: 700;
+    color: #ba945c;
+    margin-bottom: 2rem;
+    text-align: center;
+    @media #{$sm} {
+      font-size: 22px;
+    }
+  }
+  .cardstyle {
+    border-radius: 10px;
+    background: #f4f4f4;
+    border: 0;
+    margin: 0 1rem;
+    .title {
+      font-size: 18px;
+      font-weight: 700;
+    }
+    .card-img-top {
+      height: auto;
+      max-width: 100%;
+      width: 100%;
+      position: relative;
+
+      @media (min-width: 1790px) {
+        //  height:310px;
+      }
+    }
+    .icon_div {
+      position: absolute;
+      top: 5%;
+      right: 2%;
+      span {
+        background: #ddd;
+        color: black;
+        font-size: 13px;
+        border-radius: 100px;
+        padding: 0.5rem;
+        font-weight: 500;
+      }
+    }
+  }
+  .imgstyle {
+    border-radius: 10px 10px 0px 0px;
+    @media #{$lg} {
+      height: 250px;
+    }
+    @media #{$lsm} {
+      height: auto;
+    }
+    @media #{$xsm} {
+      height: auto;
+    }
+  }
+  .react-multiple-carousel__arrow--left {
+    left: calc(1% + 1px);
+  }
+  .react-multiple-carousel__arrow--right {
+    right: calc(1% + 1px);
+  }
+  .react-multiple-carousel__arrow {
+    background: #215c4f7a;
+    min-width: 35px;
+    min-height: 35px;
+  }
+  .react-multiple-carousel__arrow::before {
+    font-size: 16px;
+  }
+  .react-multiple-carousel__arrow:hover {
+    background: #215c4f;
+  }
+}

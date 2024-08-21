@@ -1,0 +1,53 @@
+.property-page {
+    .property-banner {
+        &.banner-area2{
+            z-index: -1;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            @media #{$sm, $md} {
+            background-position: center;
+            height: 540px !important;
+            margin-top: 9rem !important;
+            }
+            .container {
+                .banner-inner-wrap{
+                    height: 0vh;
+                    padding: 325px 0 325px;
+                }
+            }
+        }
+    }
+    .main-search-area {
+        margin-top: -150px;
+    }
+}
+
+.property-sort.property-area{
+    .custom-gutter {
+        background: rgba(186, 148, 92, 0.096);
+        display: block;
+        padding-top: 45px;
+        margin-bottom: 45px;
+    .property-filter-menu-wrap {
+        .property-filter-menu{
+            button{
+                border: 1px solid $secondary-color;
+                background-color: $primary-color;
+                color: $secondary-color;
+                border-radius: 6px;
+                font-weight: bold;
+                font-size: 18px;
+                text-align: center;
+                min-width: 177px;
+                height: 44px;
+                line-height: 37px;
+                &:focus, &:hover, &.active{
+                    color: $primary-color;
+                    background-color: $secondary-color;
+                }
+            }
+        } 
+    }
+    }
+}

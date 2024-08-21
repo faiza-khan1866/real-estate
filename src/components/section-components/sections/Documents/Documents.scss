@@ -1,0 +1,60 @@
+@import "../../../../assets/scss/variables";
+.Documents {
+    z-index: 9999;
+  .Title {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: justify;
+    color: #BA945C;
+    text-transform: uppercase;
+    @media #{$sm} {
+      font-size: 18px;
+    }
+  }
+  .iconStyle{
+    margin-top: 1rem;
+    // width: 25%;
+    margin-right: 1rem;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // padding: 15px;
+    border-radius: 50%;
+      border: 1px solid #BA945C;
+    .icon {
+      color: #BA945C;
+      font-size: 20px;
+    }
+  }
+    .SubTitle{
+      color: var(--main-color-one);
+      font-size: 20px;
+      font-weight: 500;
+      text-align: justify;
+      @media #{$sm} {
+        font-size: 18px;
+      }
+    }
+  .modalIcon{
+    background: var(--main-color-one);
+    color: $white;
+    padding: 1.5rem;
+    border-radius: 100%;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media #{$sm} {
+      margin-left: 1rem;
+      width: 20px;
+      height: 20px;
+      padding: 1rem;
+    }
+  }
+}

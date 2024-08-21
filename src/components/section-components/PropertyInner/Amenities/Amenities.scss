@@ -1,0 +1,49 @@
+@import "../../../../assets/scss/variables";
+.Amenities {
+  padding-top: 2rem;
+  .Title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #ba945c;
+    margin-bottom: 1.5rem;
+  }
+  .card {
+    box-shadow: 0px 4px 20px rgba(219, 219, 219, 0.6);
+    border-radius: 6px;
+    border: 0;
+    // width: 248px;
+    // height: 125px;
+    &:hover {
+      background-color: #ba945cbd;
+      // background-color: #25554aa8;
+    }
+  }
+  .subtitle {
+    font-size: 13px;
+    font-weight: bold;
+    color: #424242;
+    text-align: center;
+    margin-top: 0.5rem;
+  }
+  .amenitiesIcons {
+    width: 60px;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .col {
+    flex: 1 0 18%; /* The important bit. This percentage decides your columns. 
+       The percent can be px. It just represents your minimum starting width.
+        */
+    // margin: 5px;
+    max-width: 18%;
+    height: 125px;
+    margin-bottom: 3rem !important;
+    @media #{$sm} {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 1.5rem !important;
+    }
+  }
+}

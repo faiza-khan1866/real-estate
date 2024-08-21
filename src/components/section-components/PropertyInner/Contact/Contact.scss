@@ -1,0 +1,41 @@
+@import "../../../../assets/scss/variables";
+.contact {
+  padding-top: 2rem;
+  margin-bottom: 2rem;
+  .enquireDiv {
+    padding: 1rem 0;
+    background: rgba(186, 148, 92, 0.1);
+    .Title {
+      font-size: 24px;
+      font-weight: 700;
+      color: #ba945c;
+      margin: 0;
+    }
+    .subtitle {
+      font-size: 18px;
+      font-weight: 400;
+      color: #424242;
+      margin: 0;
+    }
+    .enquirebtn {
+      font-size: 18px;
+      font-weight: 400;
+      background: #215c4f;
+      border-radius: 6px;
+      border: none;
+      color: white;
+      text-align: center;
+      padding: 0.5rem 4rem;
+      cursor: pointer;
+      @media (max-width: 576px) {
+        padding: 0.5rem 2rem !important;
+        font-size: 14px !important;
+      }
+    }
+    .enquireDivMBL {
+      @media #{$sm} {
+        flex-direction: column;
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+@import "../../../../assets/scss/variables";
+.Intro{
+    // padding-top: 3rem;
+    // @media #{$sm} {
+    //     padding-top: 2rem;
+    // }
+    .IntroTitle{
+        font-size: 21px;
+        font-weight: 700;
+        color: #BA945C;
+    }
+    .IntrosubTitle{
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .changePFont {
+        p {
+            font-size: 15px !important;
+        }
+    }
+}
+
+h3 {
+    overflow-wrap: break-word;
+}

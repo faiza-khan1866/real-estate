@@ -1,0 +1,144 @@
+{
+  "blogs": [
+    {
+      "title": "MAKEEN APP TO ENHANCE TENANTS’ LIVES : Makeen Properties introduces computer-aided facilities management software (CAFM)",
+      "url": "/news-inner/makeen-app-to-enhance-tenants",
+      "image": "assets/img/news/news-big-01.jpg",
+      "author": "Agent",
+      "authorimage": "assets/img/news/9.png",
+      "date": "17  hours ago",
+      "content": "Established 40 years ago, Makeen specializes in residential, commercial",
+      "route": "makeen-app-to-enhance-tenants"
+    },
+    {
+      "title": "The road can wait. Stay Home, Stay Safe.",
+      "url": "/news-inner/the-road-can-wait",
+      "image": "assets/img/news/news-big-02.jpg",
+      "author": "Agent",
+      "authorimage": "assets/img/news/10.png",
+      "date": "17  hours ago",
+      "route": "the-road-can-wait",
+      "content": "A profound knowledge of local laws and best practices put Makeen properties in an early position of strength to match our services with the individual needs of our growing customer base. "
+    },
+    {
+      "title": "The road can wait. Stay Home, Stay Safe.",
+      "url": "/news-inner/stay-home-safe",
+      "image": "assets/img/news/news-big-03.jpg",
+      "author": "Agent",
+      "authorimage": "assets/img/news/11.png",
+      "date": "17  hours ago",
+      "route": "stay-home-safe",
+      "content": "A profound knowledge of local laws and best practices put Makeen properties in an early position of strength to match our services with the individual needs of our growing customer base. "
+    },
+    {
+      "title": "Rental Payments using Credit Cards for Makeen Tenants",
+      "url": "/news-inner/rental-payment-using",
+      "image": "assets/img/news/news-big-04.jpg",
+      "author": "Agent",
+      "authorimage": "assets/img/news/9.png",
+      "date": "17  hours ago",
+      "route": "rental-payment-using",
+      "content": "Makeen Property Tenants always get more: Rental Payments using Credit Cards now possible for Makeen Properties Tenants."
+    }
+  ],
+  "popularpost": {
+    "title": "PROPERTY NEWS",
+    "items": [
+      {
+        "title": "The road can wait. Stay Home, Stay Safe.",
+        "url": "/news-details",
+        "image": "assets/img/news/news-01.jpg",
+        "date": "December 25 2021"
+      },
+      {
+        "title": "The road can wait. Stay Home, Stay Safe.",
+        "url": "/news-details",
+        "image": "assets/img/news/news-02.jpg",
+        "date": "December 25 2021"
+      },
+      {
+        "title": "The road can wait. Stay Home, Stay Safe.",
+        "url": "/news-details",
+        "image": "assets/img/news/news-03.jpg",
+        "date": "December 25 2021"
+      },
+      {
+        "title": "The road can wait. Stay Home, Stay Safe.",
+        "url": "/news-details",
+        "image": "assets/img/news/news-04.jpg",
+        "date": "December 25 2021"
+      }
+    ]
+  },
+  "pressReleaseData": [
+    {
+      "title": "Odio ornare nullam id neque. Velit ullamcorper faucibus aenean facilisi feugiat.",
+      "url": "/news-inner/makeen-app-to-enhance-tenants",
+      "image": "assets/img/news/news-big-01.jpg",
+      "author": "Agent",
+      "authorimage": "assets/img/news/9.png",
+      "date": "17  hours ago",
+      "content": "Cursus congue lectus condimentum duis sagittis. Gravida cursus interdum morbi augue rhoncus. Nulla congue enim a nam nunc, cursus ut. Ultricies.",
+      "route": "makeen-app-to-enhance-tenants"
+    },
+    {
+      "title": "The road can wait. Stay Home, Stay Safe.",
+      "url": "/news-inner/the-road-can-wait",
+      "image": "assets/img/news/news-big-02.jpg",
+      "author": "Agent",
+      "authorimage": "assets/img/news/10.png",
+      "date": "17  hours ago",
+      "route": "the-road-can-wait",
+      "content": "A profound knowledge of local laws and best practices put Makeen properties in an early position of strength to match our services with the individual needs of our growing customer base. "
+    },
+    {
+      "title": "The road can wait. Stay Home, Stay Safe.",
+      "url": "/news-inner/stay-home-safe",
+      "image": "assets/img/news/news-big-03.jpg",
+      "author": "Agent",
+      "authorimage": "assets/img/news/11.png",
+      "date": "17  hours ago",
+      "route": "stay-home-safe",
+      "content": "A profound knowledge of local laws and best practices put Makeen properties in an early position of strength to match our services with the individual needs of our growing customer base. "
+    },
+    {
+      "title": "Rental Payments using Credit Cards for Makeen Tenants",
+      "url": "/news-inner/rental-payment-using",
+      "image": "assets/img/news/news-big-04.jpg",
+      "author": "Agent",
+      "authorimage": "assets/img/news/9.png",
+      "date": "17  hours ago",
+      "route": "rental-payment-using",
+      "content": "Makeen Property Tenants always get more: Rental Payments using Credit Cards now possible for Makeen Properties Tenants."
+    }
+  ],
+  "pressReleasepopularpost": {
+    "title": "PRESS RELEASES",
+    "items": [
+      {
+        "title": "The road can wait. Stay Home, Stay Safe.",
+        "url": "/news-details",
+        "image": "assets/img/news/news-01.jpg",
+        "date": "December 25 2021"
+      },
+      {
+        "title": "The road can wait. Stay Home, Stay Safe.",
+        "url": "/news-details",
+        "image": "assets/img/news/news-02.jpg",
+        "date": "December 25 2021"
+      },
+      {
+        "title": "The road can wait. Stay Home, Stay Safe.",
+        "url": "/news-details",
+        "image": "assets/img/news/news-03.jpg",
+        "date": "December 25 2021"
+      },
+      {
+        "title": "The road can wait. Stay Home, Stay Safe.",
+        "url": "/news-details",
+        "image": "assets/img/news/news-04.jpg",
+        "date": "December 25 2021"
+      }
+    ]
+  }
+}

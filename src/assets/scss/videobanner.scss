@@ -1,0 +1,152 @@
+.home-video {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  .home-video2 {
+    background: no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    .video-banner {
+      display: flex;
+      position: relative;
+      // padding-top: 100px;
+      background: rgba(33, 97, 79, 0.9);
+      @media #{$md,$lg} {
+        // height: 50vh;
+      }
+      @media #{$sm} {
+        // padding-top: 39px;
+        // height: 45vh;
+      }
+      .site-video {
+        position: relative;
+        video {
+          width: 100%;
+        }
+      }
+      @-webkit-keyframes ripple-white {
+        0% {
+          -webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.1),
+            0 0 0 10px rgba(255, 255, 255, 0.1),
+            0 0 0 20px rgba(255, 255, 255, 0.1);
+          box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.1),
+            0 0 0 10px rgba(255, 255, 255, 0.1),
+            0 0 0 20px rgba(255, 255, 255, 0.1);
+        }
+        100% {
+          -webkit-box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.1),
+            0 0 0 20px rgba(255, 255, 255, 0.1),
+            0 0 0 30px rgba(255, 255, 255, 0);
+          box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.1),
+            0 0 0 20px rgba(255, 255, 255, 0.1),
+            0 0 0 30px rgba(255, 255, 255, 0);
+        }
+      }
+
+      @keyframes ripple-white {
+        0% {
+          -webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.1),
+            0 0 0 10px rgba(255, 255, 255, 0.1),
+            0 0 0 20px rgba(255, 255, 255, 0.1);
+          box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.1),
+            0 0 0 10px rgba(255, 255, 255, 0.1),
+            0 0 0 20px rgba(255, 255, 255, 0.1);
+        }
+        100% {
+          -webkit-box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.1),
+            0 0 0 20px rgba(255, 255, 255, 0.1),
+            0 0 0 30px rgba(255, 255, 255, 0);
+          box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.1),
+            0 0 0 20px rgba(255, 255, 255, 0.1),
+            0 0 0 30px rgba(255, 255, 255, 0);
+        }
+      }
+
+      .video-promo-content {
+        // display: flex;
+        position: absolute;
+        // flex-direction: column;
+        // align-items: center;
+        // justify-content: center;
+        top: 47%;
+        left: 47%;
+        @media #{$sm} {
+          top: 32%;
+          left: 41%;
+        }
+      }
+
+      .About-video-play-icon {
+        width: 70px;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgba(255, 255, 255, 0.5);
+        border-radius: 50%;
+        -webkit-animation: ripple-white 1s linear infinite;
+        animation: ripple-white 1s linear infinite;
+        -webkit-transition: 0.5s;
+      }
+      .About-video-play-icon:hover {
+        // background: rgba(255,255,255, 1);
+        background: rgba(33, 97, 79, 0.9);
+      }
+      .AboutVideoplaySize {
+        color: white;
+        font-size: 75px !important;
+        @media #{$sm,$lsm,$xsm,$tiny,$md} {
+          font-size: 40px !important;
+        }
+      }
+      .AboutVideoplaySize:hover {
+        color: #215c4f;
+      }
+      .iconSpace {
+        margin-top: 10rem;
+        margin-right: 4rem;
+        @media #{$sm} {
+          margin-top: 1rem;
+          margin-right: 0;
+        }
+        @media #{$md} {
+          margin-right: 0;
+        }
+      }
+      .container {
+        .banner-inner-wrap {
+          padding: 0 !important;
+          display: inline-block;
+          height: auto;
+          position: relative;
+          top: 5em;
+          .banner-inner {
+            .title {
+              color: $text-color;
+              font-size: $heading-size;
+              font-weight: bold;
+              @media #{$sm} {
+                font-size: 20px;
+              }
+            }
+            .title2 {
+              color: $text-color;
+              font-size: 24px;
+              font-weight: normal;
+              @media #{$sm} {
+                font-size: 17px;
+              }
+            }
+            .sub-title {
+              color: white !important;
+              font-size: $subheading-size;
+              font-weight: normal;
+            }
+          }
+        }
+      }
+    }
+  }
+}

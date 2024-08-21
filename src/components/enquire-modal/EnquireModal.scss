@@ -1,0 +1,44 @@
+@import "../../assets/scss/variables";
+.enquire-modal { 
+    border: 1px solid #215C4F;
+    box-shadow: 1px 4px 11px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    z-index: 99999999;
+    .formcolor{
+        background: #F4F4F4;
+        border: 1px solid #C4C4C4;
+        box-sizing: border-box;
+        border-radius: 9px;
+        color: #77787d !important;
+        &::placeholder{
+            color: #C4C4C4 !important;
+        }
+    }
+      .applynow{
+        background: #215C4F;
+        border: none;
+        color: white;
+        padding: 0.5rem 3rem;
+        margin-top: 1rem;
+        border-radius: 20px;
+      }
+      .applynow:hover{
+        border: 1px solid #215C4F;
+        background: $white;
+        color: #215C4F;
+      }
+      .modalIcon{
+        background: #215C4F;
+        color: $white;
+        padding: 1.5rem;
+        border-radius: 100%;
+        margin-top: 1rem;
+        margin-left: 1rem;
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+  }

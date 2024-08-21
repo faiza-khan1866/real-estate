@@ -1,0 +1,26 @@
+@import "../../../assets/scss/variables";
+.termsservice{
+    padding: 2rem 0;
+    .title{
+        font-size: 29px;
+        font-weight: 700;
+        margin-bottom: 1rem;
+        color: var(--main-color-two);
+        text-transform: uppercase;
+    }
+    .termsDiv{
+        p {
+            text-align: justify;
+            color: #111;
+            line-height: 23px;
+            font-size: 16px;
+        }
+        h3 {
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            color: var(--main-color-two);
+            margin-top: 30px;
+        }
+    }
+}

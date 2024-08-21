@@ -1,0 +1,64 @@
+
+//== Template Main Color
+$color-white : #fff;
+
+//== social media colors
+$facebook: #3b5999;
+$twitter: #55acee;
+$dribbble: #ea4c89;
+$behance: #131418;
+$google-plus: #dd4b39;
+$linkedin: #0077B5;
+$instagram: #e4405f;
+$pinterest: #c8232c;
+
+
+/*-----------------
+    # Typography
+-----------------*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Poppins:200,300,400,400i,500,600,700i&display=swap");
+
+//  transition
+$transition: all .3s ease-in;
+$transition-long: all .5s ease-in;
+$box-shadow: 0px 2px 12px #97A1B21A;
+$box-shadow2: 0px 20px 40px rgba(0, 0, 0, 0.12);
+
+// Font Family
+$oldstan: 'Old Standard TT', serif;
+$archivo: 'Archivo', sans-serif;
+$roboto: 'Roboto', sans-serif;
+$lora: 'Lora', serif;
+$mont: 'Montserrat', serif;
+$tajwl: 'Tajawal', sans-serif;
+
+// Colors ---------------
+$primary-color: #FFFFFF;
+$secondary-color: #215C4F;
+$text-color: #BA945C;
+$heading-color: #222;
+$main-bg: #f8f8f8;
+$black: #111;
+$white: #fff;
+$nile-blue: #183254;
+$mine-shaft:#303030;
+$eden:#11595c;
+$para-color: #424242;
+$menu-color: #67AC9D;
+$headingtwo-color: #E3B775;
+$menuthree-color: #FF6E6E;
+
+// Responsive Variables
+$xxl: '(min-width: 1600px)';
+$xl: 'only screen and (min-width: 1200px) and (max-width: 1599px)';
+$lg: 'only screen and (min-width: 992px) and (max-width: 1199px)';
+$md: 'only screen and (min-width: 768px) and (max-width: 991px)';
+$sm: '(max-width: 767px)';
+$lsm: 'only screen and (min-width: 576px) and (max-width: 767px)';
+$xsm: '(max-width: 575px)';
+$tiny: '(max-width: 399px)';
+// $surfdue: 'only screen and (min-width: 466px) and (max-width: 766px)';
+
+//spacing
+$v-sp-lg: 2rem;
+$v-sp-sm: 1rem;

@@ -1,0 +1,107 @@
+{
+  "footerlogo": "assets/img/footer-logo.png",
+  "footertext": "Our support team will get assistance from AI-powered, making it quicker than ever to handle support requests.",
+  "footerbg": "assets/img/bg/footer.png",
+  "socialicon": [
+    {
+      "icon": "fa fa-youtube-play fa-lg",
+      "url": "https://www.facebook.com/codingeek.net/"
+    },
+    {
+      "icon": "fa fa-linkedin fa-lg",
+      "url": "https://www.linkedin.com/company/codingeek/about/"
+    },
+    {
+      "icon": "fa fa-facebook fa-lg",
+      "url": "https://www.facebook.com/codingeek.net/"
+    },
+    {
+      "icon": "fa fa-instagram fa-lg",
+      "url": "https://twitter.com/codingeeknet"
+    },
+    {
+      "icon": "fa fa-whatsapp",
+      "url": "https://www.linkedin.com/company/codingeek/about/"
+    }
+  ],
+  "copyrighttext": "  © Copyright Nexus Property Made with  by <a href='https://codingeek.net/' target='_blank'><i class=\"fa fa-heart\"></i><span>Codingeek.</span></a>",
+  "popularserces": {
+    "title": "FEATURED PROPERTIES",
+    "links": [
+      {
+        "title": " Makeen Tower in Abu Dhabi",
+        "url": "/property-details"
+      },
+      {
+        "title": " Makeen Residence Jaddaf Waterfront",
+        "url": "/property-details"
+      },
+      {
+        "title": " Makeen Residence Satwa",
+        "url": "/property-details"
+      },
+      {
+        "title": " Makeen Residence Al Warsan",
+        "url": "/property-details"
+      },
+      {
+        "title": "Makeen Building Airport Road",
+        "url": "/property-details"
+      }
+    ]
+  },
+  "Homepress": {
+    "title": "FEATURED LOCATIONS",
+    "links": [
+      {
+        "title": "Satwa",
+        "url": "/property-details"
+      },
+      {
+        "title": "Jaddaf",
+        "url": "/property-details"
+      },
+      {
+        "title": "Abu Dhabi",
+        "url": "/property-details"
+      },
+      {
+        "title": "RAK",
+        "url": "/property-details"
+      },
+      {
+        "title": "Dubai",
+        "url": "/property-details"
+      }
+    ]
+  },
+  "quicklink": {
+    "title": "COMPANY",
+    "links": [
+      {
+        "title": "Home",
+        "url": "/"
+      },
+      {
+        "title": "Careers",
+        "url": "/careers"
+      },
+      {
+        "title": "About Us",
+        "url": "/about-us"
+      },
+      {
+        "title": "Property management",
+        "url": "/properties"
+      },
+      {
+        "title": "FAQ's",
+        "url": "/faqs"
+      },
+      {
+        "title": "Testimonials",
+        "url": "/testimonials"
+      }
+    ]
+  }
+}

@@ -1,0 +1,96 @@
+@import "../../../assets/scss/variables";
+.property-sort {
+  .property_tab_section {
+    .property-filter-menu-wrap {
+      .property-filter-menu {
+        .button:active {
+          background: pink;
+          color: white;
+        }
+      }
+    }
+  }
+  .searchTitle {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    text-transform: uppercase;
+    color: var(--main-color-two);
+    font-weight: 700;
+    font-size: 29px;
+    @media #{$sm} {
+      font-size: 25px;
+    }
+  }
+  .buildingDiv {
+    position: relative;
+    text-align: left;
+    color: white;
+    margin-bottom: 1.5rem;
+    height: 400px;
+    background-size: cover;
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    @media #{$lg} {
+      height: 250px;
+    }
+    @media #{$lsm} {
+      height: 250px;
+    }
+    .icon_div {
+      position: absolute;
+      top: 5%;
+      right: 2%;
+      span {
+        background: #ddd;
+        color: black;
+        font-size: 13px;
+        border-radius: 100px;
+        padding: 0.5rem;
+        font-weight: 500;
+      }
+    }
+    // &:hover{
+    //     // background-size: 120%;
+    //     transition: all .5s;
+    // }
+
+    // .buildingImg {
+    //     // background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+    //     border-radius: 10px;
+    //     height: 400px;
+    // }
+  }
+
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    .title {
+      font-size: 25px;
+      font-weight: 700;
+      color: $white;
+      @media #{$sm} {
+        font-size: 22px;
+      }
+    }
+    .subtitle {
+      font-size: 18px;
+      font-weight: 400;
+      color: $white;
+      @media #{$sm} {
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+.viewmapbtn {
+  color: #215c4f;
+  background: transparent;
+  border: 1px solid #215c4f;
+  border-radius: 10px;
+  padding: 0.3rem 1rem;
+  font-size: 16px;
+  cursor: pointer;
+}

@@ -1,0 +1,44 @@
+.PropertyIntro-area{
+    padding-top: 2rem;
+    .section-title{
+        .title{
+            color: #215C4F;
+            font-size: 32px;
+            text-align: left;
+        }
+        .sub-title{
+            color: #215C4F;
+            font-size: 20px;
+            text-align: left;
+            font-weight: 300;
+        }
+    }
+}
+
+#commercial{
+    .PropertyIntro-area{
+        padding-top: 2rem;
+        .section-title{
+            .title{
+                color: #BA945C;
+            }
+            .sub-title{
+                color: #BA945C;
+            }
+        }
+    }  
+}
+
+#industrial{
+    .PropertyIntro-area{
+        padding-top: 2rem;
+        .section-title{
+            .title{
+                color: #FF6E6E;
+            }
+            .sub-title{
+                color: #FF6E6E;
+            }
+        }
+    }  
+}

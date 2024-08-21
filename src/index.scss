@@ -1,0 +1,137 @@
+@import "./assets/scss/variables";
+@import "./assets/scss/homepage";
+@import "./assets/scss/headerbanner";
+@import "./assets/scss/videobanner";
+@import "./assets/scss/tabpanel";
+@import "./assets/scss/propertybanner";
+@import "./assets/scss/slider";
+@import "./assets/scss/properties";
+@import "./assets/scss/aboutCarousel";
+@import "./assets/scss/PropertyIntro";
+
+body {
+  font-family: "Tajawal", sans-serif;
+}
+
+.container {
+  @media #{$md} {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  @media #{$lg} {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  @media #{$xl} {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  @media #{$xxl} {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
+.form-border select {
+  color: #77787d !important;
+}
+
+.setpheight {
+  min-height: 65px !important;
+}
+
+.generalDiv {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: 21px;
+    font-weight: 700;
+    color: #ba945c;
+  }
+  p {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: justify;
+  }
+  ul li {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: justify;
+  }
+  ol li {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: justify;
+  }
+}
+
+.agreeForEmail {
+  display: flex !important;
+  column-gap: 10px !important;
+}
+.agreeForEmailText {
+  padding-top: 13px !important;
+}
+.agreeForEmailInput {
+  width: 15px !important;
+}
+
+.footer-contact {
+  @media (max-width: 376px) {
+    margin-top: 10px !important;
+  }
+}
+
+.register-button {
+  @media (max-width: 576px) {
+    a {
+      .btn-white {
+        height: 40px !important;
+        padding: 0px !important;
+        .big {
+          font-size: 13px !important;
+          font-weight: 550;
+        }
+      }
+    }
+  }
+}
+
+.queryinput {
+  color: black !important;
+}
+.sendEmailBtn {
+  cursor: pointer;
+}
+
+.inputColor {
+  border: 1px solid #c4c4c4 !important;
+  color: #77787d !important;
+  &::placeholder {
+    color: #c4c4c4 !important;
+  }
+}
+
+.app_icons img {
+  width: 150px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  @media (max-width: 991px) {
+    margin-bottom: 2rem;
+  }
+}
+.app_icons a {
+  text-decoration: none;
+  color: var(--black);
+  -webkit-transition: 0.25s cubic-bezier(0.02, 0.01, 0.47, 1);
+  transition: 0.25s cubic-bezier(0.02, 0.01, 0.47, 1);
+}
+.app_icons a:hover {
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+  -webkit-transition: 0.25s cubic-bezier(0.02, 0.01, 0.47, 1);
+  transition: 0.25s cubic-bezier(0.02, 0.01, 0.47, 1);
+}

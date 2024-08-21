@@ -1,0 +1,58 @@
+@import "../../../../assets/scss/variables";
+.floorplan{
+    padding-top: 2rem;
+    .Title{
+        font-size: 24px;
+        font-weight: 700;
+        color: #BA945C;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+    .carouselMBLStyle{
+        @media #{$sm} {
+            margin-bottom: 2rem;
+        } 
+    }
+    .subTitle{
+        font-size: 24px;
+        font-weight: 700;
+        color: #BA945C;
+    }
+    .card{
+        box-shadow: 0px 4px 19px rgba(0, 0, 0, 0.15) !important;
+        border-radius: 10px !important;
+    }
+    .arrowDiv{
+        position: absolute;
+        top: 63%;
+        right: 35px;
+        @media #{$md} {
+            top: 52%;
+        }
+        @media #{$lg} {
+            top: 58%;
+        }
+        @media #{$sm} {
+            top: 54%;
+        }
+        .CarouselArrow{
+            width: 45px;
+            height: 45px;
+            border: 1px solid #BA945C;
+            border-radius: 100%;
+            background: transparent;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+        }
+        .carouselArrowsize{
+            color: #BA945C;
+        }
+    }
+    .carousel * {
+        border-radius: 10px;
+    }
+}

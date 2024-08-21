@@ -1,0 +1,101 @@
+@import "../../../../assets/scss/variables";
+.gallery360deg {
+  padding-top: 2rem;
+  margin-bottom: 4rem;
+
+  .Title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #ba945c;
+    margin-bottom: 1.5rem;
+  }
+  .carouselMBLStyle {
+    position: relative;
+    @media #{$sm} {
+      margin-bottom: 2rem;
+    }
+  }
+  .subTitle {
+    font-size: 24px;
+    font-weight: 700;
+    color: #ba945c;
+  }
+  .card {
+    box-shadow: 0px 4px 19px rgba(0, 0, 0, 0.15) !important;
+    border-radius: 10px !important;
+  }
+  .arrowDiv {
+    // position: absolute;
+    // top: 208%;
+    // right: 146px;
+    // @media #{$md} {
+    //     top: 180%;
+    //     right: 72px;
+    // }
+    // @media #{$lg} {
+    //     top: 98%;
+    //     right: 103px;
+    // }
+    // @media #{$sm} {
+    //     top: 233%;
+    //     right: 46px;
+    // }
+    .CarouselArrow {
+      width: 45px;
+      height: 45px;
+      border: none;
+      border-radius: 100%;
+      background: white;
+      box-shadow: 1px 4px 11px rgba(0, 0, 0, 0.08);
+      padding: 0;
+      margin: 0;
+      margin-top: 1rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      &:hover {
+        background: #ba945cba;
+        color: white;
+      }
+      @media #{$sm, $md} {
+        margin-top: 0.5rem;
+      }
+    }
+    .carouselArrowsize {
+      color: #ba945c;
+      font-size: 35px;
+      &:hover {
+        color: white;
+      }
+    }
+  }
+  .carousel * {
+    border-radius: 10px;
+  }
+  //     .react-multiple-carousel__arrow--right {
+  //         bottom: 32px;
+  //       }
+  //       .react-multiple-carousel__arrow--left {
+  //         left: calc(85% + 1px);
+  //         bottom: 32px;
+  //         @media #{$md} {
+  //             left: calc(77% + 1px);
+  //         }
+  //         @media #{$sm} {
+  //             left: calc(64% + 1px);
+  //         }
+  //     }
+  //     .react-multiple-carousel__arrow {
+  //       background: $white;
+  //     }
+  //     .react-multiple-carousel__arrow:hover {
+  //       background: rgba(255, 255, 255, 0.788);
+  //   }
+  //   .react-multiple-carousel__arrow::before {
+  //     color: #BA945C;
+  //   }
+  //   .react-multi-carousel-list {
+  //       border-radius: 10px;
+  //   }
+}
